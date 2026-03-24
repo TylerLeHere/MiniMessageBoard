@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title><%= title %></title>
+</head>
+<body>
+  <h1>Message from <%= message.user %></h1>
+  <p><%= message.text %></p>
+  <small>Sent: <%= message.added.toDateString() %></small>
+  <br><br>
+  <a href="/">Back to all messages</a>
+</body>
+</html>
